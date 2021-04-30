@@ -1,11 +1,17 @@
 import React from 'react';
-import footer from './Assets/loginbg_2000.png';
+import "./Footer.css";
+
+// import footerpic from './Assets/loginbg_2000.png';
 
 const Footer = () => {
     return (
-        <div className="Home">
-            <img src={footer} />
-
+        <div className="main-footer">
+            {/* <img src={footerpic} /> */}
+            <div className="footer-links">
+                <div className="footer-link">
+                    <a href="https://chrisproject.org">About ChRIS</a>
+                </div>
+            </div>
         </div>
     )
 }

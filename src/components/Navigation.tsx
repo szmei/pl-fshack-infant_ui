@@ -15,7 +15,7 @@ function Navigation(): JSX.Element {
 				<img className="navBar-Logo" src={logo} alt="Logo" />
 			</a>
 			<ul className="navBar-Links">
-				{navLink('Home')}
+				<li>{navLink('Home')}</li>
 				{navLink('Results')}
 				{navLink('Login')}
 			</ul>
@@ -24,3 +24,4 @@ function Navigation(): JSX.Element {
 }
 
 export default Navigation;
+
